@@ -1,9 +1,33 @@
 var header = document.getElementById('header');
-header.innerHTML = "Revisions JS";
-
-var firstName = "il a dit : \"C'est une simple phrase\"";
-console.log(firstName);
+header.innerHTML = "Revisions JS"; //  cette annotation est equivalente à document.getElementById.innerHTML
 
 
-var firstName2 = 3 ;
-console.log(firstName2);
+
+
+
+
+// Array
+var color = ["vert", "rouge", "violet", 5];
+
+color[6]= "bleu";
+
+console.log(color);
+
+//Object
+
+var identité = {
+    firsName : "Koukougnon",
+    lastName : "Mael Ethan",
+    age: 3 ,
+    sexe : "M",
+
+}
+
+identité.town = "Bordeaux";
+
+identité.lastName = "Mael Ethan Gnagra";
+
+console.log (identité);
+
+
+
