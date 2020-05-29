@@ -1,11 +1,18 @@
-// Boucle For
+// Boucle For each
 
-for (var i = 1; i < 10 ; i++){
+var color =['rouge', 'bleu', 'vert'];
 
-    if (i == 5){
-        console.log (`Ici la valeur de i est ${i}, donc on fait une pause !!!`)
-        break;
-    }
-    console.log(`la valeur de la variable i est de ${i}`);
+var person = {
+    firstName: 'Koukougon',
+    lastName : 'Franck',
+    age: 13,
+    hasChild : true,
+};
+
+for (id in color){
+    console.log(`Ma couleur préférée est ${color[id]}`);
+};
+
+for (prop in person){
+    console.log(`la cle ${prop} est la propriété de ${person[prop]}`);
 }
-    console.log('La boucle est finie !!!');
