@@ -1,6 +1,7 @@
-// operation ternaire 
+var a = "1", b = 4;
 
-var age = 43;
-
- age >= 18 ? console.log (` a ${age} ans, vous etes majeur !!!`) : console.log (`a ${age} ans, vous etes encore mineur !!!`);
-
+if(!a){
+    console.log("La reponse est 'true !!!'");
+} else {
+    console.log("La reponse est 'false' !!!");
+}
