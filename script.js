@@ -1,7 +1,9 @@
-var a = "1", b = 4;
 
-if(!a){
-    console.log("La reponse est 'true !!!'");
-} else {
-    console.log("La reponse est 'false' !!!");
-}
+
+var a = 10;
+do {
+     console.log(`la valeur de la variable est: ${a}`);
+     a++;
+ } while (a<10)
+
+ console.log('la boucle est finie !!!');
