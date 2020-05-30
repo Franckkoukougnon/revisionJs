@@ -1,18 +1,19 @@
-// Boucle For each
+// function
 
-var color =['rouge', 'bleu', 'vert'];
 
-var person = {
-    firstName: 'Koukougon',
-    lastName : 'Franck',
-    age: 13,
-    hasChild : true,
-};
 
-for (id in color){
-    console.log(`Ma couleur préférée est ${color[id]}`);
-};
+var addNumber = function (num1 = 2, num2 = 4) {
 
-for (prop in person){
-    console.log(`la cle ${prop} est la propriété de ${person[prop]}`);
+     var total = num1 + num2;
+     return total;
+
+    
 }
+
+ var result1 = addNumber();
+ var result2 = addNumber(10);
+ var result3 = addNumber(20, 4);
+
+console.log(result1);
+console.log(result2);
+console.log(result3);
